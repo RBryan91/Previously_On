@@ -1,0 +1,126 @@
+.sideBarre{
+    width: 65%;
+    float: left;
+    height: 500px;
+    background-color: white;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 5%;
+}
+.t-name{
+    font-size: 2vw;
+    margin-top: 10px    ;
+}
+.t-hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.divSelect{
+    width: 60%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-top: 20px;
+    
+}
+.divSelect > select{
+    margin-top: 20px;
+}
+select{
+    direction: rtl;
+   
+    
+  }
+  select option{
+    direction:ltr;
+  }
+
+  
+.user-box {
+    width:100%;
+    margin-top: 30px;
+  }
+  
+  .user-id {
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .user-name {
+    height: 100%;
+    font-size: 1em;
+    line-height: 2.5em;
+  }
+
+  .user-name p{
+    padding-left: 50px;
+  }
+  
+  .dropdown-arrow {
+    height: 0;
+    width: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 7px solid #333;
+    position: relative;
+    bottom: 22px;
+    left:10px;
+  }
+  
+  .user-id:hover .dropdown-arrow {
+    top: 35px;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 10px solid #333;
+    border-top: 10px solid transparent;
+  }
+  
+  .dropdown-menu {
+    list-style-type: none;
+    display: none;
+    width: 700px;
+  }
+  
+  .user-id:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    min-width: 147px!important;
+
+    
+    
+  }
+  .dropdown-menu ul{
+    background-color: white;
+    height: auto;
+  }
+  .dropdown-menu ul li {
+    list-style-type: none;
+    display: block;
+    height: 30px;
+    width: 100%;
+    float: left;
+    font-size: 1em;
+    color: black ;
+    background-color: white;
+    border-bottom: 2px solid #333;
+  }
+  
+  .dropdown-menu ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-menu ul li a:hover {
+    background: #333;
+    color: #fff;
+  }
+
+  .d-flex a {
+    text-decoration: none;
+    color: #333;
+  }

@@ -1,0 +1,33 @@
+.Single_product {
+    background-image: linear-gradient(to bottom, #09233d, #09233d, #09233d, #09233d, #09233d);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.product {
+    width: 160px;
+    height: 70%;
+    margin: 100px auto;
+    color: white;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.img_product {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.img_product>img {
+    height: 430px;
+    width: 320px;
+}
+
+.product_desc {
+    width: 50%;
+    color: white;
+    margin: 100px auto
+}
